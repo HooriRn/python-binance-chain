@@ -2,7 +2,7 @@ import binascii
 from enum import Enum
 from typing import Optional
 
-from secp256k1 import PrivateKey
+from secp256k1Crypto import PrivateKey
 from mnemonic import Mnemonic
 from pycoin.symbols.btc import network
 
